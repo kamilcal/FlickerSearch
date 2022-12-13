@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeTableViewController.swift
 //  FlickerSearch
 //
 //  Created by kamilcal on 13.12.2022.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class HomeTableViewController: UITableViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
 }
+
 
