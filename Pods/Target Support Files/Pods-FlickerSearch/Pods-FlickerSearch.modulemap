@@ -1,0 +1,6 @@
+framework module Pods_FlickerSearch {
+  umbrella header "Pods-FlickerSearch-umbrella.h"
+
+  export *
+  module * { export * }
+}
