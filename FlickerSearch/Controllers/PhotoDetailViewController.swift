@@ -13,11 +13,15 @@ class PhotoDetailViewController: UIViewController {
     @IBOutlet weak var ownerImageView: UIImageView!
     @IBOutlet weak var ımageView: UIImageView!
     @IBOutlet weak var textView: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Photo Detail"
         textView.isEditable = false
         textView.isSelectable = false
+        ownerImageView.backgroundColor = .darkGray
+        ownerNameLabel.text = "Owner Name"
     }
     
 
