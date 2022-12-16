@@ -70,6 +70,11 @@ class LoginViewController: UIViewController {
         }
     }
     
+    @IBAction func registerButton(_ sender: Any) {
+        
+    performSegue(withIdentifier: "loginToRegister", sender: self)
+        
+    }
     
     @IBAction func termsButton(_ sender: UIButton) {
         guard let url = URL(string: "https://www.flickr.com/help/terms") else {

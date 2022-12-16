@@ -20,5 +20,84 @@
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52DDD796-D65C-4364-85F0-DFF25A17EDC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlickerSearch/Controllers/HomeTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "updateSearchResults(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66A00267-12A2-4810-BA3A-9D0EA40AE137"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlickerSearch/Controllers/HomeTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "searchPhotos(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66A00267-12A2-4810-BA3A-9D0EA40AE137 - a105412659e9fdbf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlickerSearch.HomeTableViewController.searchPhotos(with: Swift.String) -&gt; ()"
+                  moduleName = "FlickerSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamilcal/Desktop/Github&apos;a%20Yu%CC%88klenen%20Dosyalar/FlickerSearch/FlickerSearch/Controllers/HomeTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "66A00267-12A2-4810-BA3A-9D0EA40AE137 - a105412659e9fdbf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlickerSearch.HomeTableViewController.searchPhotos(with: Swift.String) -&gt; ()"
+                  moduleName = "FlickerSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamilcal/Desktop/Github&apos;a%20Yu%CC%88klenen%20Dosyalar/FlickerSearch/FlickerSearch/Controllers/HomeTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "66A00267-12A2-4810-BA3A-9D0EA40AE137 - a105412659e9fdbf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlickerSearch.HomeTableViewController.searchPhotos(with: Swift.String) -&gt; ()"
+                  moduleName = "FlickerSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamilcal/Desktop/Github&apos;a%20Yu%CC%88klenen%20Dosyalar/FlickerSearch/FlickerSearch/Controllers/HomeTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "848">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

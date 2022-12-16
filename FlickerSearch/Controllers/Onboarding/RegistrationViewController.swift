@@ -17,6 +17,7 @@ class RegistrationViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Create Account"
         emailTextField.layer.cornerRadius = CGFloat(8.0)
         emailTextField.layer.borderWidth = 1.0
         emailTextField.layer.borderColor = UIColor.secondaryLabel.cgColor
