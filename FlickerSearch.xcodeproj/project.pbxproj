@@ -24,6 +24,7 @@
 		D29D403D294A161000E44E8E /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D403C294A161000E44E8E /* Photos.swift */; };
 		D29D403F294A185700E44E8E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D403E294A185700E44E8E /* Photo.swift */; };
 		D29D4043294BDD2C00E44E8E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D4042294BDD2C00E44E8E /* NetworkManager.swift */; };
+		D29D4046294C8C1700E44E8E /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D4045294C8C1700E44E8E /* AuthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		D29D403C294A161000E44E8E /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		D29D403E294A185700E44E8E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		D29D4042294BDD2C00E44E8E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D29D4045294C8C1700E44E8E /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,7 @@
 		D26636F52948A051001FFAE0 /* FlickerSearch */ = {
 			isa = PBXGroup;
 			children = (
-				D26636F62948A051001FFAE0 /* AppDelegate.swift */,
-				D26636F82948A051001FFAE0 /* SceneDelegate.swift */,
+				D29D4044294C8BF800E44E8E /* Resources */,
 				D29D402B2948C1EE00E44E8E /* GoogleService-Info.plist */,
 				D266370D2948A2BC001FFAE0 /* Supporting Files */,
 				D29D4040294BDD1100E44E8E /* Network */,
@@ -175,6 +176,16 @@
 				D29D4042294BDD2C00E44E8E /* NetworkManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		D29D4044294C8BF800E44E8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D26636F82948A051001FFAE0 /* SceneDelegate.swift */,
+				D26636F62948A051001FFAE0 /* AppDelegate.swift */,
+				D29D4045294C8C1700E44E8E /* AuthManager.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +307,7 @@
 				D29D4043294BDD2C00E44E8E /* NetworkManager.swift in Sources */,
 				D29D403F294A185700E44E8E /* Photo.swift in Sources */,
 				D29D403229494D8B00E44E8E /* PhotoTableViewCell.swift in Sources */,
+				D29D4046294C8C1700E44E8E /* AuthManager.swift in Sources */,
 				D29D402E2948CD3900E44E8E /* LoginViewController.swift in Sources */,
 				D2811D7F2948A90300E057FC /* RegistrationViewController.swift in Sources */,
 				D26636F72948A051001FFAE0 /* AppDelegate.swift in Sources */,

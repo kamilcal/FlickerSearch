@@ -12,34 +12,36 @@ import SafariServices
 
 class LoginViewController: UIViewController {
     
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var leftImage: UIImageView!
-    @IBOutlet weak var rightImage: UIImageView!
-    @IBOutlet weak var emailtextField: UITextField!
-    @IBOutlet weak var passwordtextField: UITextField!
+    var currentInstance: LoginViewController?
+    
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var leftImage: UIImageView!
+    @IBOutlet var rightImage: UIImageView!
+    @IBOutlet var emailtextField: UITextField!
+    @IBOutlet var passwordtextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        leftImage.layer.cornerRadius = leftImage.frame.height/2
-        rightImage.layer.cornerRadius = leftImage.frame.height/2
-        emailtextField.layer.cornerRadius = CGFloat(8.0)
-        emailtextField.layer.borderWidth = 1.0
-        emailtextField.layer.borderColor = UIColor.secondaryLabel.cgColor
-        emailtextField.layer.masksToBounds = true
-        passwordtextField.layer.cornerRadius = CGFloat(8.0)
-        passwordtextField.layer.borderWidth = 1.0
-        passwordtextField.layer.borderColor = UIColor.secondaryLabel.cgColor
-        passwordtextField.layer.masksToBounds = true
+        
+        leftImage?.layer.cornerRadius = leftImage.frame.height/2
+        rightImage?.layer.cornerRadius = leftImage.frame.height/2
+        emailtextField?.layer.cornerRadius = CGFloat(8.0)
+        emailtextField?.layer.borderWidth = 1.0
+        emailtextField?.layer.borderColor = UIColor.secondaryLabel.cgColor
+        emailtextField?.layer.masksToBounds = true
+        passwordtextField?.layer.cornerRadius = CGFloat(8.0)
+        passwordtextField?.layer.borderWidth = 1.0
+        passwordtextField?.layer.borderColor = UIColor.secondaryLabel.cgColor
+        passwordtextField?.layer.masksToBounds = true
+
 
         
-        
-        
-        titleLabel.text = ""
+        titleLabel?.text = ""
         var charIndex = 0.0
         let titleText = "flicker"
         for i in titleText {
             Timer.scheduledTimer(withTimeInterval: charIndex * 0.1 , repeats: false) { (time) in
-                self.titleLabel.text?.append(i)
+                self.titleLabel?.text?.append(i)
             }
             charIndex += 1
             

@@ -140,6 +140,7 @@
                             <constraint firstItem="KxH-45-vC0" firstAttribute="bottom" secondItem="Zt6-yp-IzE" secondAttribute="bottom" constant="20" id="zQq-sR-uWX"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="iQW-hB-2wg"/>
                     <connections>
                         <outlet property="emailtextField" destination="4QF-jB-jcy" id="XlH-Lp-eVp"/>
                         <outlet property="leftImage" destination="TYP-vx-iDX" id="YTE-X0-RYv"/>
@@ -422,20 +423,20 @@
             </objects>
             <point key="canvasLocation" x="2919.8473282442746" y="-375.35211267605638"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Profile-->
         <scene sceneID="Hgx-wh-iYn">
             <objects>
                 <tableViewController id="2Xe-w0-Jz0" customClass="ProfileTableViewController" customModule="FlickerSearch" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="3Ym-Os-6eX">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="3Ym-Os-6eX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="vw8-Wb-BBv">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" editingAccessoryType="disclosureIndicator" id="vw8-Wb-BBv">
+                                <rect key="frame" x="0.0" y="55.333332061767578" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vw8-Wb-BBv" id="j17-nN-1I5">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -445,7 +446,7 @@
                             <outlet property="delegate" destination="2Xe-w0-Jz0" id="zfB-9Z-Iyv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="gDi-LN-R8M"/>
+                    <navigationItem key="navigationItem" title="Profile" id="gDi-LN-R8M"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rjz-XW-HIQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -487,7 +488,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2bZ-qe-2RM"/>
+        <segue reference="sFN-1z-1Bw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="house" catalog="system" width="128" height="104"/>
